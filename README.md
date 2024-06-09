@@ -8,5 +8,5 @@ The Dataset used for training the Deep Learning Model was taken from the [Kaggle
 Here, I used a transfer learning for the development of the this application. The model I used is ResNet50. I changed ResNet50's fully connected (fc) layer and added some Dropout and ReLU functions to address overfitting. Before finalizing ResNet50, I tried some other models too, like VGG, EfficientNetB1, ResNet101, and GoogleNet.
 
 
-For developmentof this model, I wrote *'app.py'*, *'model.py'*, *'requirements.txt'*, '*class_names.txt'* and downlaoded the state_dict of the trained model and saved it as the ResNet_Model. 
+For development of this model, I wrote *'app.py'*, *'model.py'*, *'requirements.txt'*, '*class_names.txt'* and downlaoded the state_dict of the trained model and saved it as the ResNet_Model. 
 
